@@ -1,0 +1,39 @@
+{
+  "name": "your-marketplace-name",
+  "version": "1.0.0",
+  "description": "Custom Claude Code plugins for your team or organization",
+  "author": "Your Name or Organization",
+  "repository": "https://github.com/your-username/your-marketplace",
+  "plugins": [
+    {
+      "name": "template-skill-only",
+      "version": "0.1.0",
+      "source": "./plugins/template-skill-only",
+      "description": "Simple skill-only plugin template for teaching Claude domain knowledge"
+    },
+    {
+      "name": "template-command-skill",
+      "version": "0.1.0",
+      "source": "./plugins/template-command-skill",
+      "description": "Command and skill plugin template for slash commands with background knowledge"
+    },
+    {
+      "name": "template-agent",
+      "version": "0.1.0",
+      "source": "./plugins/template-agent",
+      "description": "Agent plugin template for specialized subagents and complex workflows"
+    },
+    {
+      "name": "template-full",
+      "version": "0.1.0",
+      "source": "./plugins/template-full",
+      "description": "Full-featured plugin template with agent, skill, command, hook, and MCP support"
+    },
+    {
+      "name": "example-github",
+      "version": "1.0.0",
+      "source": "./plugins/example-github",
+      "description": "Real-world example: GitHub workflow automation with PR reviews and issue management"
+    }
+  ]
+}

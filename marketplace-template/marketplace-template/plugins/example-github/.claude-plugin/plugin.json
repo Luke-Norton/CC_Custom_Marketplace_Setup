@@ -1,0 +1,41 @@
+{
+  "name": "example-github",
+  "version": "1.0.0",
+  "description": "Real-world example: GitHub workflow automation with PR reviews and issue management",
+  "author": "Claude Code Team",
+  "license": "MIT",
+  "keywords": [
+    "github",
+    "pull-request",
+    "code-review",
+    "workflow",
+    "git",
+    "ci-cd"
+  ],
+  "agents": [
+    {
+      "name": "pr-reviewer",
+      "path": "agents/pr-reviewer.md"
+    }
+  ],
+  "commands": [
+    {
+      "name": "setup",
+      "path": "commands/setup.md"
+    },
+    {
+      "name": "create-pr",
+      "path": "commands/create-pr.md"
+    },
+    {
+      "name": "review-pr",
+      "path": "commands/review-pr.md"
+    }
+  ],
+  "skills": [
+    {
+      "name": "github-workflow",
+      "path": "skills/github-workflow/SKILL.md"
+    }
+  ]
+}

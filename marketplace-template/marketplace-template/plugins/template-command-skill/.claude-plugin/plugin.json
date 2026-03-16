@@ -1,0 +1,19 @@
+{
+  "name": "template-command-skill",
+  "version": "0.1.0",
+  "description": "Command and skill plugin template for slash commands with background knowledge",
+  "author": "Your Name",
+  "license": "MIT",
+  "commands": [
+    {
+      "name": "your-command",
+      "path": "commands/your-command.md"
+    }
+  ],
+  "skills": [
+    {
+      "name": "your-skill",
+      "path": "skills/your-skill/SKILL.md"
+    }
+  ]
+}

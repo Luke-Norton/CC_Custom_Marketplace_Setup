@@ -1,0 +1,13 @@
+{
+  "name": "template-skill-only",
+  "version": "0.1.0",
+  "description": "Simple skill-only plugin template for teaching Claude domain knowledge",
+  "author": "Your Name",
+  "license": "MIT",
+  "skills": [
+    {
+      "name": "your-skill",
+      "path": "skills/your-skill/SKILL.md"
+    }
+  ]
+}

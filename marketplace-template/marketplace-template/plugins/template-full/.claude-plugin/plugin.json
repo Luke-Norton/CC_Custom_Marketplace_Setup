@@ -1,0 +1,33 @@
+{
+  "name": "template-full",
+  "version": "0.1.0",
+  "description": "Full-featured plugin template with agent, skill, command, hook, and MCP support",
+  "author": "Your Name",
+  "license": "MIT",
+  "agents": [
+    {
+      "name": "your-agent",
+      "path": "agents/your-agent.md"
+    }
+  ],
+  "commands": [
+    {
+      "name": "setup",
+      "path": "commands/setup.md"
+    },
+    {
+      "name": "your-command",
+      "path": "commands/your-command.md"
+    }
+  ],
+  "skills": [
+    {
+      "name": "your-skill",
+      "path": "skills/your-skill/SKILL.md"
+    }
+  ],
+  "hooks": {
+    "postToolUse": "hooks/post-tool.py"
+  },
+  "mcpConfig": ".mcp.json"
+}

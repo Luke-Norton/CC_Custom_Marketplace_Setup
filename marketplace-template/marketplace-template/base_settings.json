@@ -1,8 +1,20 @@
 {
   "permissions": {
     "allow": [
-      "Bash(your-tool:*)",
-      "Skill(your-plugin:*)"
+      "Bash(gh:*)",
+      "Bash(git:*)",
+      "Bash(npm:*)",
+      "Bash(node:*)",
+      "Bash(python:*)",
+      "Bash(python3:*)",
+      "Skill(*)",
+      "Agent(*)",
+      "WebFetch(*)"
+    ],
+    "deny": [
+      "Bash(rm:*)",
+      "Bash(sudo:*)",
+      "Bash(chmod:777)"
     ]
   }
 }
